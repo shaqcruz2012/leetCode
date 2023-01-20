@@ -11,3 +11,13 @@ var isIsomorphic = function(s, t) {
     }
     return true;
 };
+
+function isIsomorphic(s,t){
+  if (s.length !== t.length) return false
+  let mapS = new map(), mapT = new Map()
+  for (let i = 0; i<s.length; i++){
+    if (mapT.has(s[i])) return false
+    mapS.set(s[i], t[i])
+  }
+  return true
+}
