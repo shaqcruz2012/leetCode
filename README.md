@@ -1,2 +1,2 @@
 # leetCode
-all of teh leetCode
+A Collection of leetcode practice problems
